@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Volleyball Fundraiser Registration</title>
+    <!-- application css file -->
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <!-- application js file -->
+    <%= javascript_include_tag 'application' %>
+    <!-- JS FILES -->
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <% if flash[:notice] %>
+      <p class="alert notice"><%= flash[:notice] %></p>
+    <% end %>
+    <% if alert %>
+      <p class="alert"><%= alert %></p>
+    <% end %>
+    <% if flash[:warning] %>
+      <p class="alert warning"><%= flash[:warning] %></p>
+    <% end %>
+    <%= render "shared/menu" %>
+    <%= render "shared/header" %>
+
+    <!-- MAIN CONTAINER -->
+    <section class="maincontainer">
+      <%= yield %>
+      <!-- FOOTER -->
+      <footer id="footer">   
+        <div class="clear"></div>
+        <!-- COPYRIGHT -->
+        <div class="credits">© 2013 Garrison Development</div>
+        <!-- SOCIAL ICONS -->
+        <ul class="social-icons">
+          <li>
+            <a href="#">
+              <%= image_tag "social-icons/facebook.png", :alt => "Facebook", :class => "social-icon" %>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <%= image_tag "social-icons/twitter.png", :alt => "Twitter", :class => "social-icon" %>
+            </a>
+          </li>      
+        </ul>
+      </footer>
+      <!-- BACK TO TOP BUTTON -->
+      <a href="#" class="back-to-top"></a>
+    </section>    
+  </body>
+</html>
