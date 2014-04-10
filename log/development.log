@@ -35190,3 +35190,278 @@ Started GET "/assets/s-left.png" for 72.228.148.55 at 2014-04-08 15:59:00 -0600
 
 
 Started GET "/assets/s-right.png" for 72.228.148.55 at 2014-04-08 15:59:00 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-10 02:04:50 -0400
+
+Mysql2::Error (Access denied for user 'muscorei'@'localhost' (using password: YES)):
+  mysql2 (0.3.15) lib/mysql2/client.rb:67:in `connect'
+  mysql2 (0.3.15) lib/mysql2/client.rb:67:in `initialize'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /home/bgarrison/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /home/bgarrison/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.0.rc2) lib/active_record/connection_handling.rb:136:in `retrieve_connection'
+  activerecord (4.1.0.rc2) lib/active_record/connection_handling.rb:110:in `connection'
+  activerecord (4.1.0.rc2) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.0.rc2) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bgarrison/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bgarrison/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bgarrison/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bgarrison/.rvm/gems/ruby-2.1.1@vollapp/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/bgarrison/.rvm/gems/ruby-2.1.1@vollapp/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/bgarrison/.rvm/gems/ruby-2.1.1@vollapp/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/bgarrison/.rvm/gems/ruby-2.1.1@vollapp/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-10 02:06:33 -0400
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.0.rc2) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.0.rc2) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bgarrison/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bgarrison/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bgarrison/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bgarrison/.rvm/gems/ruby-2.1.1@vollapp/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /home/bgarrison/.rvm/gems/ruby-2.1.1@vollapp/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /home/bgarrison/.rvm/gems/ruby-2.1.1@vollapp/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/bgarrison/.rvm/gems/ruby-2.1.1@vollapp/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+  [1m[36m (468.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (618.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20140328034726)
+  [1m[35m (408.7ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (601.5ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (618.8ms)[0m  CREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140328034726')
+  [1m[36m (52.2ms)[0m  [1mCOMMIT[0m
+Migrating to AddUsernameToUsers (20140328034756)
+  [1m[35m (1045.5ms)[0m  ALTER TABLE `users` ADD `username` varchar(255)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140328034756')
+  [1m[36m (190.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateTeams (20140328222508)
+  [1m[35m (584.4ms)[0m  CREATE TABLE `teams` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140328222508')
+  [1m[36m (48.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+  Rendered shared/_menu.html.erb (13.7ms)
+  Rendered shared/_header.html.erb (1.2ms)
+Completed 200 OK in 258ms (Views: 257.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/colorbox.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/easy-responsive-tabs.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/jquery.bxslider.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/media.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/colors.css?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/backstretch.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/photos/group3.jpg" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/photos/bbq.jpg" for 127.0.0.1 at 2014-04-10 02:07:06 -0400
+
+
+Started GET "/assets/social-icons/facebook.png" for 127.0.0.1 at 2014-04-10 02:07:07 -0400
+
+
+Started GET "/assets/social-icons/twitter.png" for 127.0.0.1 at 2014-04-10 02:07:07 -0400
+
+
+Started GET "/assets/photos/dr_garrison.jpg" for 127.0.0.1 at 2014-04-10 02:07:07 -0400
+
+
+Started GET "/assets/gototop.png" for 127.0.0.1 at 2014-04-10 02:07:07 -0400
+
+
+Started GET "/assets/s-left.png" for 127.0.0.1 at 2014-04-10 02:07:07 -0400
+
+
+Started GET "/assets/s-right.png" for 127.0.0.1 at 2014-04-10 02:07:07 -0400
+  [1m[36m (7.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (48.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20140328034726)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (80.0ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (40.2ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")
+  [1m[36m (40.5ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140328034726"]]
+  [1m[36m (17.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddUsernameToUsers (20140328034756)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD COLUMN "username" character varying(255)[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140328034756"]]
+  [1m[36m (4.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateTeams (20140328222508)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (37.3ms)[0m  [1mCREATE TABLE "teams" ("id" serial primary key, "name" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140328222508"]]
+  [1m[36m (17.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
