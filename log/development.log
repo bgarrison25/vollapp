@@ -33610,3 +33610,1583 @@ Started GET "/assets/photos/dr_garrison.jpg" for 127.0.0.1 at 2014-03-30 23:39:0
 
 
 Started GET "/assets/social-icons/twitter.png" for 127.0.0.1 at 2014-03-30 23:39:04 -0400
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:16:24 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (34.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (208.3ms)
+  Rendered shared/_menu.html.erb (12.4ms)
+  Rendered shared/_header.html.erb (25.2ms)
+Completed 200 OK in 1281ms (Views: 1280.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/colorbox.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/colors.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/jquery.bxslider.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/animate.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/easy-responsive-tabs.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/flexslider.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/grid.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/media.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/normalize.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/home.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/style.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/teams.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/application.css?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:26 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/assets/logo.png" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/photos/bbq.jpg" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/photos/dr_garrison.jpg" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/logo.jpg" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/social-icons/facebook.png" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/social-icons/twitter.png" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/photos/group3.jpg" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+
+
+Started GET "/assets/gototop.png" for 72.228.148.55 at 2014-04-07 19:16:27 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+
+Started GET "/assets/s-left.png" for 72.228.148.55 at 2014-04-07 19:16:28 -0600
+
+Started GET "/assets/s-right.png" for 72.228.148.55 at 2014-04-07 19:16:28 -0600
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:18:58 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (62.7ms)
+  Rendered shared/_menu.html.erb (11.5ms)
+  Rendered shared/_header.html.erb (1.1ms)
+Completed 200 OK in 456ms (Views: 455.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flexslider.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/colors.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/easy-responsive-tabs.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/animate.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/grid.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/colorbox.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/jquery.bxslider.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/media.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/style.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/teams.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/application.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/normalize.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/home.css?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/logo.png" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/logo.jpg" for 72.228.148.55 at 2014-04-07 19:18:59 -0600
+
+
+Started GET "/assets/photos/dr_garrison.jpg" for 72.228.148.55 at 2014-04-07 19:19:00 -0600
+
+
+Started GET "/assets/social-icons/facebook.png" for 72.228.148.55 at 2014-04-07 19:19:00 -0600
+
+
+Started GET "/assets/social-icons/twitter.png" for 72.228.148.55 at 2014-04-07 19:19:00 -0600
+
+
+Started GET "/assets/photos/group3.jpg" for 72.228.148.55 at 2014-04-07 19:19:00 -0600
+
+
+Started GET "/assets/photos/bbq.jpg" for 72.228.148.55 at 2014-04-07 19:19:00 -0600
+
+
+Started GET "/assets/gototop.png" for 72.228.148.55 at 2014-04-07 19:19:00 -0600
+
+
+Started GET "/assets/s-right.png" for 72.228.148.55 at 2014-04-07 19:19:00 -0600
+
+
+Started GET "/assets/s-left.png" for 72.228.148.55 at 2014-04-07 19:19:00 -0600
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:19:15 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:19:15 -0600
+  Rendered shared/_menu.html.erb (1.0ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (61.7ms)
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+  Rendered shared/_menu.html.erb (0.9ms)
+  Rendered shared/_header.html.erb (8.3ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.1ms)
+  Rendered shared/_menu.html.erb (12.9ms)
+  Rendered shared/_header.html.erb (3.6ms)
+  Rendered shared/_menu.html.erb (0.9ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 98ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.1ms)
+  Rendered shared/_menu.html.erb (1.0ms)
+  Rendered shared/_header.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 566ms (Views: 565.0ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/animate.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+Started GET "/assets/colors.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/easy-responsive-tabs.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/grid.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/colorbox.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/flexslider.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/style.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/media.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/normalize.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/jquery.bxslider.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/application.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:16 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/teams.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/home.css?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/logo.jpg" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/photos/group3.jpg" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/photos/bbq.jpg" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/logo.png" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/photos/dr_garrison.jpg" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/social-icons/facebook.png" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/gototop.png" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/social-icons/twitter.png" for 72.228.148.55 at 2014-04-07 19:19:17 -0600
+
+
+Started GET "/assets/s-right.png" for 72.228.148.55 at 2014-04-07 19:19:18 -0600
+
+
+Started GET "/assets/s-left.png" for 72.228.148.55 at 2014-04-07 19:19:18 -0600
+
+
+Started GET "/users/sign_up" for 72.228.148.55 at 2014-04-07 19:28:29 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (2.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (237.2ms)
+  Rendered shared/_menu.html.erb (0.9ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 405ms (Views: 389.5ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:30 -0600
+
+
+Started GET "/users/sign_in" for 72.228.148.55 at 2014-04-07 19:28:31 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.6ms)
+  Rendered shared/_menu.html.erb (1.2ms)
+  Rendered shared/_header.html.erb (0.5ms)
+Completed 200 OK in 270ms (Views: 264.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:32 -0600
+
+
+Started POST "/users/sign_in" for 72.228.148.55 at 2014-04-07 19:28:41 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v/1HLlYETaQ7taDJfIQEYP2NMDieV/cjIIUbl9per7s=", "user"=>{"email"=>"bgarrison25@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (9.9ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'bgarrison25@gmail.com'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (4.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (25.7ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2014-04-08 01:28:41', `last_sign_in_at` = '2014-03-31 21:53:51', `last_sign_in_ip` = '72.228.148.55', `sign_in_count` = 3, `updated_at` = '2014-04-08 01:28:41' WHERE `users`.`id` = 1
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://dominican.bgarrison.com/
+Completed 302 Found in 580ms (ActiveRecord: 40.5ms)
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered shared/_menu.html.erb (2.5ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:28:42 -0600
+
+
+Started GET "/" for 173.64.10.45 at 2014-04-07 19:29:44 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+  Rendered shared/_menu.html.erb (0.8ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:44 -0600
+
+
+Started GET "/assets/colorbox.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:44 -0600
+
+
+Started GET "/assets/colors.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:44 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:44 -0600
+
+
+Started GET "/assets/jquery.bxslider.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:44 -0600
+
+
+Started GET "/assets/grid.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:44 -0600
+
+
+Started GET "/assets/flexslider.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:44 -0600
+
+
+Started GET "/assets/easy-responsive-tabs.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:44 -0600
+
+
+Started GET "/assets/media.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:44 -0600
+
+
+Started GET "/assets/normalize.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/style.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/home.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/teams.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/application.css?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/home.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/logo.jpg" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/photos/dr_garrison.jpg" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/logo.png" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/photos/bbq.jpg" for 173.64.10.45 at 2014-04-07 19:29:45 -0600
+
+
+Started GET "/assets/photos/group3.jpg" for 173.64.10.45 at 2014-04-07 19:29:46 -0600
+
+
+Started GET "/assets/gototop.png" for 173.64.10.45 at 2014-04-07 19:29:46 -0600
+
+
+Started GET "/assets/s-left.png" for 173.64.10.45 at 2014-04-07 19:29:47 -0600
+
+
+Started GET "/assets/s-right.png" for 173.64.10.45 at 2014-04-07 19:29:47 -0600
+
+
+Started DELETE "/users/sign_out" for 72.228.148.55 at 2014-04-07 19:35:51 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"trsi57mNUl9fVHiNBZgt/P06boENYn1xeZN4swJZWGg="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://dominican.bgarrison.com/
+Completed 302 Found in 68ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:35:51 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.9ms)
+  Rendered shared/_menu.html.erb (0.9ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:52 -0600
+
+
+Started GET "/users/sign_up" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.8ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 77ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:57 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:35:58 -0600
+
+
+Started GET "/users/sign_up" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.6ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/home.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:04 -0600
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.8ms)
+  Rendered shared/_menu.html.erb (1.1ms)
+  Rendered shared/_header.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:11 -0600
+
+
+Started GET "/users/sign_up" for 72.228.148.55 at 2014-04-07 19:36:22 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.9ms)
+  Rendered shared/_menu.html.erb (0.7ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:22 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:22 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:22 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:22 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:22 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:22 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:23 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:23 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:23 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:23 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:23 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:23 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:23 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:23 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:23 -0600
+
+
+Started GET "/" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+  Rendered shared/_menu.html.erb (0.7ms)
+  Rendered shared/_header.html.erb (0.3ms)
+Completed 200 OK in 22ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.jpg" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/home.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/photos/dr_garrison.jpg" for 173.64.10.45 at 2014-04-07 19:36:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 173.64.10.45 at 2014-04-07 19:36:55 -0600
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-07 19:36:58 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+  Rendered shared/_menu.html.erb (0.9ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:36:59 -0600
+
+
+Started GET "/users/sign_up" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.8ms)
+  Rendered shared/_menu.html.erb (0.8ms)
+  Rendered shared/_header.html.erb (0.5ms)
+Completed 200 OK in 105ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-07 19:37:05 -0600
+
+
+Started GET "/users/sign_up" for 173.64.10.45 at 2014-04-07 19:37:12 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.2ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:12 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:12 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:12 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:12 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:12 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:12 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:12 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:12 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:13 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:13 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:13 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:13 -0600
+
+
+Started GET "/assets/home.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:13 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:13 -0600
+
+
+Started GET "/" for 173.64.10.45 at 2014-04-07 19:37:25 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.5ms)
+  Rendered shared/_menu.html.erb (0.9ms)
+  Rendered shared/_header.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.jpg" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/home.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/photos/dr_garrison.jpg" for 173.64.10.45 at 2014-04-07 19:37:26 -0600
+
+
+Started GET "/assets/logo.png" for 173.64.10.45 at 2014-04-07 19:41:08 -0600
+
+
+Started GET "/" for 173.64.10.45 at 2014-04-08 08:50:55 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (6.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (127.9ms)
+  Rendered shared/_menu.html.erb (11.6ms)
+  Rendered shared/_header.html.erb (22.7ms)
+Completed 200 OK in 1185ms (Views: 1184.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 69.195.125.128 at 2014-04-08 12:27:45 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (28.5ms)
+  Rendered shared/_menu.html.erb (1.1ms)
+  Rendered shared/_header.html.erb (0.7ms)
+Completed 200 OK in 138ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:45 -0600
+
+
+Started GET "/assets/flexslider.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:45 -0600
+
+
+Started GET "/assets/colors.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:45 -0600
+
+
+Started GET "/assets/grid.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/colorbox.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/easy-responsive-tabs.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/jquery.bxslider.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/media.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/normalize.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/style.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/home.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/teams.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/application.css?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:46 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/home.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/logo.jpg" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/logo.png" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/photos/group3.jpg" for 69.195.125.128 at 2014-04-08 12:27:47 -0600
+
+
+Started GET "/assets/photos/bbq.jpg" for 69.195.125.128 at 2014-04-08 12:27:48 -0600
+
+
+Started GET "/assets/photos/dr_garrison.jpg" for 69.195.125.128 at 2014-04-08 12:27:48 -0600
+
+
+Started GET "/assets/social-icons/facebook.png" for 69.195.125.128 at 2014-04-08 12:27:48 -0600
+
+
+Started GET "/assets/social-icons/twitter.png" for 69.195.125.128 at 2014-04-08 12:27:48 -0600
+
+
+Started GET "/assets/s-right.png" for 69.195.125.128 at 2014-04-08 12:27:48 -0600
+
+
+Started GET "/assets/s-left.png" for 69.195.125.128 at 2014-04-08 12:27:48 -0600
+
+
+Started GET "/" for 72.228.148.55 at 2014-04-08 15:58:57 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (53.5ms)
+  Rendered shared/_menu.html.erb (0.7ms)
+  Rendered shared/_header.html.erb (0.6ms)
+Completed 200 OK in 195ms (Views: 194.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:57 -0600
+
+
+Started GET "/assets/colorbox.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:57 -0600
+
+
+Started GET "/assets/colors.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:57 -0600
+
+
+Started GET "/assets/flexslider.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:57 -0600
+
+
+Started GET "/assets/jquery.bxslider.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:57 -0600
+
+
+Started GET "/assets/grid.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:57 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/media.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/easy-responsive-tabs.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/normalize.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/home.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/style.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/teams.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/application.css?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/backstretch.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/easyResponsiveTabs.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/gallery.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/jflickrfeed.min.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/jquery.colorbox-min.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/jquery.bxslider.min.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/alertFeedback.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/custom.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/home.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/teams.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/logo.jpg" for 72.228.148.55 at 2014-04-08 15:58:58 -0600
+
+
+Started GET "/assets/photos/dr_garrison.jpg" for 72.228.148.55 at 2014-04-08 15:58:59 -0600
+
+
+Started GET "/assets/photos/bbq.jpg" for 72.228.148.55 at 2014-04-08 15:58:59 -0600
+
+
+Started GET "/assets/logo.png" for 72.228.148.55 at 2014-04-08 15:59:00 -0600
+
+
+Started GET "/assets/photos/group3.jpg" for 72.228.148.55 at 2014-04-08 15:59:00 -0600
+
+
+Started GET "/assets/social-icons/facebook.png" for 72.228.148.55 at 2014-04-08 15:59:00 -0600
+
+
+Started GET "/assets/social-icons/twitter.png" for 72.228.148.55 at 2014-04-08 15:59:00 -0600
+
+
+Started GET "/assets/gototop.png" for 72.228.148.55 at 2014-04-08 15:59:00 -0600
+
+
+Started GET "/assets/s-left.png" for 72.228.148.55 at 2014-04-08 15:59:00 -0600
+
+
+Started GET "/assets/s-right.png" for 72.228.148.55 at 2014-04-08 15:59:00 -0600

@@ -13,13 +13,13 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  username: muscorei
+  password: ZTO614qq@
+  database: muscorei_vollapp
 
 development:
   <<: *default
-  database: vollapp_development
+  database: muscorei_vollapp
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -35,4 +35,5 @@ test:
 #   mysql2://myuser:mypass@localhost/somedatabase
 #
 production:
+  adapter: mysql2
   url: <%= ENV["DATABASE_URL"] %>
