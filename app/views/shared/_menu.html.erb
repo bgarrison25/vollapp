@@ -24,12 +24,13 @@
           <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
         </li>
       <% else %>
-        <li>
+	<li><a>Registration Coming Soon</a></li>
+       <!-- <li>
           <%= link_to "Register for Tournament", new_user_registration_path, :class => 'navbar-link'  %>
         </li>
         <li>
           <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>  
-        </li>  
+        </li>-->  
       <% end %>
     </ul>
   </nav>

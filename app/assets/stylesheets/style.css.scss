@@ -1382,8 +1382,7 @@ textarea {
   bottom: 0px;
   right: 15px;
   display: none;
-  background-image: asset-url("gototop.png");
-  background-repeat: no-repeat;
+  background: asset-url("gototop.png") no-repeat;
   background-position: center center;
   width: 60px;
   height: 60px;
