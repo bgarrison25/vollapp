@@ -85,15 +85,17 @@ html[xmlns] .slides {
 	-o-transition: background-color 0.2s ease-in-out;
 	-ms-transition: background-color 0.2s ease-in-out;
 }
+//= depend_on_asset "s-right.png"
 .flex-direction-nav .flex-next {
 	background-position:center center;
-	background-image: asset-url("s-right.png", image);
+	background-image: image-url("s-right.png");
 	background-repeat:no-repeat;
 	left: 60px;
 }
+//= depend_on_asset "s-left.png"
 .flex-direction-nav .flex-prev {
     background-position:center center;
-	background-image: asset-url('s-left.png', image);
+	background-image: image-url("s-left.png");
 	background-repeat:no-repeat;
 	left: 0px;
 }
