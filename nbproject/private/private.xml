@@ -2,6 +2,15 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/bgarrison/workspace/vollapp/app/controllers/home_controller.rb</file>
+            <file>file:/home/bgarrison/workspace/vollapp/config/routes.rb</file>
+            <file>file:/home/bgarrison/workspace/vollapp/app/models/position.rb</file>
+            <file>file:/home/bgarrison/workspace/vollapp/app/models/user.rb</file>
+            <file>file:/home/bgarrison/workspace/vollapp/app/controllers/teams_controller.rb</file>
+            <file>file:/home/bgarrison/workspace/vollapp/app/controllers/application_controller.rb</file>
+            <file>file:/home/bgarrison/workspace/vollapp/app/models/user_position.rb</file>
+            <file>file:/home/bgarrison/workspace/vollapp/app/controllers/registrations_controller.rb</file>
+        </group>
     </open-files>
 </project-private>
