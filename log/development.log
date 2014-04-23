@@ -2726,3 +2726,27 @@ Started GET "/assets/s-right.png" for 127.0.0.1 at 2014-04-20 00:37:16 -0400
   [1m[35mUserPosition Load (0.4ms)[0m  SELECT "user_positions".* FROM "user_positions"
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
   [1m[35mPosition Load (0.4ms)[0m  SELECT "positions".* FROM "positions" INNER JOIN "user_positions" ON "positions"."id" = "user_positions"."position_id" WHERE "user_positions"."user_id" = $1  [["user_id", 1]]
+  [1m[36mActiveRecord::SchemaMigration Load (228.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddDetailsToUsers (20140420032737)
+  [1m[35m (168.3ms)[0m  ALTER TABLE `users` ADD `position_id` int(11)
+  [1m[36m (68.2ms)[0m  [1mALTER TABLE `users` ADD `team_id` int(11)[0m
+  [1m[35m (16.4ms)[0m  ALTER TABLE `users` ADD `skill` int(11)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (13.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140420032737')
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Migrating to CreateUserPositions (20140420041132)
+  [1m[35m (108.7ms)[0m  CREATE TABLE `user_positions` (`id` int(11) auto_increment PRIMARY KEY, `user_id` int(11), `position_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140420041132')
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePositions (20140420041332)
+  [1m[35m (2.9ms)[0m  CREATE TABLE `positions` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140420041332')
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Migrating to RemovePositionId (20140420041934)
+  [1m[35m (6.7ms)[0m  ALTER TABLE `users` DROP `position_id`
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140420041934')
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
