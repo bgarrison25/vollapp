@@ -43,5 +43,8 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 gem 'devise'
 gem 'rails_admin', '~> 0.6.1'
+gem 'cancan'
+gem 'simple_form'
+gem 'twitter-bootstrap-rails'
 
 gem 'rails_12factor', group: :production

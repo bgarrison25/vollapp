@@ -5,4 +5,5 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   has_many :user_positions
   has_many :positions, :through => :user_positions
+  accepts_nested_attributes_for :positions
 end

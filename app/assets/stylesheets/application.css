@@ -12,7 +12,6 @@
  *
  *= require animate
  *= require colorbox
- *= require colors
  *= require easy-responsive-tabs
  *= require flexslider
  *= require grid
@@ -20,7 +19,6 @@
  *= require magnific-popup
  *= require media
  *= require normalize
- *= require style
  *= require_tree .
  *= require_self
  */

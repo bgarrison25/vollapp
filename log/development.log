@@ -2750,3 +2750,38 @@ Migrating to RemovePositionId (20140420041934)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140420041934')
   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
   [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (7.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (56.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddAdminToUsers (20140423195350)
+  [1m[35m (643.3ms)[0m  ALTER TABLE `users` ADD `admin` tinyint(1) DEFAULT 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (51.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140423195350')
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (25.8ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mUser Load (1.7ms)[0m  [1mSELECT  `users`.* FROM `users`   ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mPosition Load (1.9ms)[0m  SELECT `positions`.* FROM `positions` INNER JOIN `user_positions` ON `positions`.`id` = `user_positions`.`position_id` WHERE `user_positions`.`user_id` = 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE `users` SET `admin` = 1, `updated_at` = '2014-04-23 20:08:00' WHERE `users`.`id` = 1
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddLegacyPasswordToUser (20140423202216)
+  [1m[35m (15.8ms)[0m  ALTER TABLE `users` ADD `legacy_password` varchar(255)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140423202216')
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM `users` WHERE `users`.`id` = 2[0m
+  [1m[36mUser Load (1.7ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mUser Load (2.1ms)[0m  SELECT `users`.* FROM `users`
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mPosition Load (75.1ms)[0m  SELECT `positions`.* FROM `positions` INNER JOIN `user_positions` ON `positions`.`id` = `user_positions`.`position_id` WHERE `user_positions`.`user_id` = 3
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mSQL (2.1ms)[0m  DELETE FROM `users` WHERE `users`.`id` = 3
+  [1m[36mUser Load (158.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4 LIMIT 1[0m
+  [1m[35mPosition Load (0.6ms)[0m  SELECT `positions`.* FROM `positions` INNER JOIN `user_positions` ON `positions`.`id` = `user_positions`.`position_id` WHERE `user_positions`.`user_id` = 4
