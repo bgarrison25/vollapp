@@ -1415,3 +1415,10 @@ textarea {
 .alert.warning {
   background-color: #880000;
 }
+
+#new_user input[type="submit"] {
+  float: left;
+}
+#devise-links {
+  float: right;
+}

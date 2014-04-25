@@ -11,7 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140423202216) do
+ActiveRecord::Schema.define(version: 20140425032433) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "positions", force: true do |t|
     t.string   "name"
@@ -47,7 +50,7 @@ ActiveRecord::Schema.define(version: 20140423202216) do
     t.datetime "updated_at"
     t.string   "username"
     t.integer  "team_id"
-    t.integer  "skill"
+    t.string   "skill"
     t.boolean  "admin",                  default: false
     t.string   "legacy_password"
   end

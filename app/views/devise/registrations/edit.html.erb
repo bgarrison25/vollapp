@@ -7,9 +7,10 @@
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
     <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
   <% end %>
-  <%= f.association :positions, as: :check_boxes, wrapper_class: "squaredOne" %>
+  <%= f.association :positions, as: :check_boxes %>
+  <%= f.input :skill, collection: ["Beginner", "Intermediate", "Advanced"], as: :radio_buttons, label: "Skill Level: " %>
   <%= f.submit "Update", class: "button" %>
 <% end %>
 
-<%= link_to "Back", :back, class: "button" %>
+<%= link_to "Back", :back, class: "button glyphicon glyphicon-chevron-left" %>
 </section>

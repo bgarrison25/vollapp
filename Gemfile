@@ -44,7 +44,7 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'rails_admin', '~> 0.6.1'
 gem 'cancan'
-gem 'simple_form'
-gem 'twitter-bootstrap-rails'
+gem 'simple_form', '~> 3.1.0.rc1', github: 'plataformatec/simple_form'
+gem 'bootstrap-sass', '~> 3.1.1.0'
 
 gem 'rails_12factor', group: :production
